@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Esolutions - BPO Website Template</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+<!-- favicon  -->
+
+<link rel="icon" type="image/jpg" href="./img/ESOLUTION LOGO.jpg">
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.7.0/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+                <a href="" class="navbar-brand p-0">
+                    <img   src="./img/ESOLUTION_LOGO-removebg-preview.png" alt="Logo">
+                     <!-- <img src="img/logo.png" alt="Logo"> -->
+                 </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="index.html" class="nav-item nav-link">Home</a>
+                        <a href="industries.html" class="nav-item nav-link active">Industries</a>
+                        <!-- <a href="about.html" class="nav-item nav-link">About</a> -->
+                        <!-- <a href="service.html" class="nav-item nav-link">Service</a> -->
+                        <!-- <a href="blog.html" class="nav-item nav-link">Blog</a> -->
+                        <div class="nav-item dropdown ">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="retail.html" class="dropdown-item">Retail & E-Commerce Management</a>
+                                <a href="office.html" class="dropdown-item">Back Office Service</a>
+                                <a href="shared.html" class="dropdown-item">Shared Services</a>
+                                <a href="technical.html" class="dropdown-item">Technical Support</a>
+                                <a href="customer.html" class="dropdown-item">Customer Experience</a>
+                                <a href="digital.html" class="dropdown-item">Digital Marketing</a>
+                                <a href="Content.html" class="dropdown-item">Content Services</a>
+                                <a href="revenue.html" class="dropdown-item">Revenue Generation</a>
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown ">
+                            <a href="#" class="nav-link dropdown-toggle " data-bs-toggle="dropdown">Explore Us</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="about.html" class="dropdown-item">About Esolution</a>
+                                <a href="team.html" class="dropdown-item">Our Team</a>
+                                <a href="infrastructure.html" class="dropdown-item">Infrastructure</a>
+                              
+                            </div>
+                        </div>
+                        <!-- <div class="nav-item dropdown active">
+                            <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Pages</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="feature.html" class="dropdown-item active">Feature</a>
+                                <a href="product.html" class="dropdown-item">Our Product</a>
+                                <a href="team.html" class="dropdown-item">Our Team</a>
+                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                                <a href="404.html" class="dropdown-item">404 Page</a>
+                            </div>
+                        </div> -->
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
+                    <!-- <div class="d-none d-xl-flex me-3">
+                        <div class="d-flex flex-column pe-3 border-end border-primary">
+                            <span class="text-body">Get Free Delivery</span>
+                            <a href="tel:+4733378901"><span class="text-primary">Free: + 0123 456 7890</span></a>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary btn-md-square d-flex flex-shrink-0 mb-3 mb-lg-0 rounded-circle me-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button>
+                    <a href="" class="btn btn-primary rounded-pill d-inline-flex flex-shrink-0 py-2 px-4">Order Now</a> -->
+                </div>
+            </nav>
+
+            <!-- Header Start -->
+            <div class="container-fluid bg-breadcrumb">
+                <div class="container text-center py-5" style="max-width: 900px;">
+                    <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Industries</h4>
+                    <ol class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                       
+                        <li class="breadcrumb-item active text-primary">Industries</li>
+                    </ol>    
+                </div>
+            </div>
+            <!-- Header End -->
+        </div>
+        <!-- Navbar & Hero End -->
+
+        <!-- Modal Search Start -->
+        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <h4 class="modal-title mb-0" id="exampleModalLabel">Search by keyword</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex align-items-center">
+                        <div class="input-group w-75 mx-auto d-flex">
+                            <input type="search" class="form-control p-3" placeholder="keywords" aria-describedby="search-icon-1">
+                            <span id="search-icon-1" class="input-group-text btn border p-3"><i class="fa fa-search text-white"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Search End -->
+
+      <!-- tab system start -->
+      <div class="text-center mx-auto py-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+          <h4 class="text-uppercase text-primary">Our Services</h4>
+          <!-- <h1 class="display-3 text-capitalize mb-3">A Trusted Name In Bottled Water Industry</h1> -->
+      </div>
+<div class="tab-body">
+    <div class="tabs">
+        <div class="tabs-header">
+          <div class="tab-button active" data-tab="e-commerce">E-commerce</div>
+          <div class="tab-button" data-tab="healthcare">Healthcare</div>
+          <div class="tab-button" data-tab="fintech">Fintech</div>
+          <div class="tab-button" data-tab="it-service">IT Services</div>
+          <div class="tab-button" data-tab="travel">Travel</div>
+          <div class="tab-button" data-tab="telecom">Telecom</div>
+        </div>
+   
+
+          <div class="tab-content active" id="e-commerce">
+            <div>
+              <h1 class="heading">E-commerce</h1>
+              <p class="retail-p">Esolution in the context of E-commerce involves contracting specialized external providers to manage specific operational tasks, allowing the E-commerce company to focus on core aspects.</p>
+              <p class="retail-p">Our services include customer support, order processing, inventory management, data entry, and more.
+                  For instance, in customer support, Esolution sets up a dedicated team to handle customer inquiries, issues, and returns through various channels like phone, email, and live chat.</p>
+              <p class="retail-p">In order processing, they manage order placement, payment processing, and tracking shipments.
+                  Inventory management involves maintaining accurate stock records, optimizing inventory levels, and ensuring products are available when needed. Data entry tasks could encompass updating product information, prices, and descriptions.</p>
+              <p class="retail-p">Esolutions streamlines these functions through established processes and technology, enhancing efficiency and reducing operational costs. Effective communication and regular reporting maintain collaboration between the E-commerce company and Esolutions.</p>
+              <p class="retail-p">Ultimately, this partnership enables the E-commerce company to concentrate on growth strategies, marketing, and product development while leveraging our expertise for seamless back-end operations, thereby improving customer experiences and overall business performance.</p>
+              
+           
+          </div>
+          <div>
+              
+              <img src="./img/Ecommerce.webp" alt="e-commerce">
+          </div>
+      </div>
+  
+    
+      
+        <div class="tab-content" id="healthcare">
+          <div class="tab-container">
+            <h1 class="heading">Healthcare</h1>
+            <p class="retail-p">Esolutions plays a crucial role in the health sector by enhancing operational efficiency, improving patient care, and reducing administrative burdens. Our services in healthcare encompass various functions such as medical billing, medical transcription, claims processing, appointment scheduling, and customer service.</p>
+            <p class="retail-p">Esolutions streamlines administrative tasks, allowing healthcare providers to focus on patient care and medical expertise. Outsourcing medical billing and claims processing ensures accurate and timely reimbursement, reducing financial stress on healthcare facilities. Medical transcription services convert patient records into electronic formats, improving accessibility and facilitating seamless information exchange among healthcare professionals.</p>
+            <p class="retail-p">Appointment scheduling, we optimize patient flow, reducing wait times and enhancing the overall patient experience. Customer service outsourcing enables quick and effective responses to patient inquiries, enhancing satisfaction and loyalty.</p>
+            <p class="retail-p">Furthermore, we implement robust data security measures to safeguard sensitive patient information, ensuring compliance with healthcare regulations like HIPAA.</p>
+            <p class="retail-p">In an era of rapidly advancing technology and increasing patient demands, we helps healthcare institutions manage their operations efficiently, cut costs, and provide better patient care. By freeing up internal resources and leveraging specialized expertise, we contributes to a more streamlined and patient-centric healthcare system.</p>
+          </div>
+          <img src="./img/healthcare.webp" alt="Vision">
+        </div>
+      
+        <div class="tab-content" id="fintech">
+            <div class="tab-container">
+                <h1 class="heading">Fintech</h1>
+                <ul class="list">
+                    <p class="retail-p">Esolutions services hold immense significance in the Fintech sector due to the unique demands and complexities of financial technology. Fintech companies leverage us for several key reasons:</p>
+                  <li class="list-item">
+
+
+                    <p class="retail-p"><strong>Cost Efficiency:</strong> Fintech startups and established companies alike can reduce operational costs by outsourcing non-core functions such as customer support, data entry, and back-office operations. This allows them to allocate resources more effectively for innovation and growth.</p>
+                  </li>
+                  <li class="list-item">
+                   
+                    <p class="retail-p"><strong>Focus on Core Competencies: </strong>By entrusting us with routine tasks, Fintech companies can concentrate on developing cutting-edge financial products and services. This accelerates innovation and maintains their competitive edge.</p>
+                  </li>
+                  <li class="list-item">
+                   
+                    <p class="retail-p"><strong>Scalability:</strong> The dynamic nature of Fintech requires rapid scaling to meet demand fluctuations. Our services offer flexible solutions that can be quickly adjusted, enabling Fintech firms to scale up or down as needed without compromising quality.</p>
+                  </li>
+                  <li class="list-item">
+                   
+                    <p class="retail-p"><strong>Global Expansion: </strong>Esolutions facilitates Fintech's expansion into new markets by providing multilingual customer support, compliance assistance with local regulations, and cross-border payment processing.</p>
+                  </li>
+                  <li class="list-item">
+                   
+                    <p class="retail-p"><strong>Expertise and Compliance:</strong> We possess specialized expertise in risk management, fraud detection, and regulatory compliance. Partnering with them ensures that Fintech companies adhere to industry regulations and best practices.</p>
+                  </li>
+                  <li class="list-item">
+                   
+                    <p class="retail-p"><strong>Efficient Customer Service:</strong> Our services enhance customer experiences by offering round-the-clock support and quick query resolution. This fosters trust and loyalty among Fintech's user base.</p>
+                  </li>
+                  <li class="list-item">
+                   
+                    <p class="retail-p"><strong>Data Security: </strong> Fintech deals with sensitive financial data. We maintain rigorous data security protocols, safeguarding sensitive information and maintaining compliance with data protection regulations.</p>
+                  </li>
+                  <p class="retail-p">In essence, our services empower Fintech companies to optimize operations, innovate freely, and swiftly adapt to market changes.</p>
+                </ul>
+              </div>
+          <img src="./img/Fintech.webp" alt="Values">
+        </div>
+
+
+        <div class="tab-content" id="it-service">
+            <div class="tab-container">
+                <h1 class="heading">IT Services</h1>
+                <ul class="list">
+                    <p class="retail-p">Esolutions play a significant role in the IT services sector, offering various advantages that enhance efficiency, innovation, and customer satisfaction.</p>
+                  <li class="list-item">
+
+
+                    <p class="retail-p"><strong> Cost Efficiency:</strong>Esolutions allows IT companies to access specialized services without the need to invest heavily in infrastructure and manpower. This cost-effective approach enables efficient allocation of resources.</p>
+                  </li>
+                  <li class="list-item">
+                   
+                    <p class="retail-p"><strong> Focus on Core Competencies: </strong> By outsourcing routine tasks like data entry, technical support, and back-end operations, IT companies can concentrate on their core expertise, such as software development, system integration, and innovation.</p>
+                  </li>
+                  <li class="list-item">
+                   
+                    <p class="retail-p"><strong>Scalability:</strong> The IT industry often experiences rapid changes in project demands. We provides a flexible solution that can quickly adjust to varying workloads, ensuring scalability without compromising quality.</p>
+                  </li>
+                  <li class="list-item">
+                   
+                    <p class="retail-p"><strong>Global Reach:</strong> Our services facilitate global expansion by providing multilingual customer support, adapting products to local markets, and handling international regulations and compliance.</p>
+                  </li>
+                  <li class="list-item">
+                   
+                    <p class="retail-p"><strong>24/7 Support:</strong> IT companies can offer continuous customer support through us, catering to a global customer base across different time zones. This boosts customer satisfaction and loyalty.</p>
+                  </li>
+                  <li class="list-item">
+                   
+                    <p class="retail-p"><strong>Expertise Enhancement:</strong> Esolutions bring specialized skills and knowledge, contributing to improved service quality, advanced problem-solving, and staying up-to-date with industry trends.</p>
+                  </li>
+                  <li class="list-item">
+                   
+                    <p class="retail-p"><strong>Innovation Acceleration:</strong> By outsourcing routine tasks, IT firms can dedicate more resources to research, development, and innovation, leading to the creation of cutting-edge solutions.</p>
+                  </li>
+                  <li class="list-item">
+                   
+                    <p class="retail-p"><strong>Data Security: </strong> Esolutions ensure stringent data security measures, which is crucial in the IT sector where sensitive information and intellectual property are at stake.
+                        In summary, our services empower IT companies to streamline operations, focus on innovation, expand globally, and provide exceptional customer experiences. This collaboration fosters growth and competitiveness within the dynamic and fast-paced IT services industry.</p>
+                  </li>
+                  <p class="retail-p">In essence, our services empower Fintech companies to optimize operations, innovate freely, and swiftly adapt to market changes.</p>
+                </ul>
+              </div>
+          <img src="./img/Fintech.webp" alt="Values">
+        </div>
+        <div class="tab-content" id="travel">
+            <div class="tab-container">
+                <h1 class="heading">Travel</h1>
+                <ul class="list">
+                    <p class="retail-p">Esolutions services hold significant importance in the travel industry, enhancing operational efficiency, customer experiences, and global reach.</p>
+                  <li class="list-item">
+
+
+                    <p class="retail-p"><strong>Customer Support:</strong> Esolutions offers 24/7 customer support across different time zones, addressing inquiries, booking assistance, and travel-related concerns. This ensures seamless interactions and enhances customer satisfaction.</p>
+                  </li>
+                  <li class="list-item">
+
+
+                    <p class="retail-p"><strong>Cost Efficiency:</strong> By outsourcing tasks like reservation management, data entry, and payment processing, travel companies can reduce operational costs and allocate resources more strategically.</p>
+                  </li>
+                  <li class="list-item">
+                   
+                    <p class="retail-p"><strong>Focus on Marketing and Innovation:</strong> Esolutions allows travel companies to delegate administrative tasks and concentrate on marketing strategies, product development, and creating unique travel experiences.</p>
+                  </li>
+                
+                  <li class="list-item">
+                   
+                    <p class="retail-p"><strong>Global Expansion:</strong> Our services enable travel companies to offer multilingual customer support, adapt services to various cultures, and navigate international regulations, facilitating global expansion.</p>
+                  </li>
+                  <li class="list-item">
+                   
+                    <p class="retail-p"><strong>Scalability:</strong> The travel industry experiences seasonal fluctuations. BPO provides scalability, allowing travel companies to handle increased booking demands during peak seasons without compromising service quality.</p>
+                  </li>
+                  <li class="list-item">
+                   
+                    <p class="retail-p"><strong>Technology Integration:</strong> We offer access to advanced reservation systems, data analytics, and customer relationship management tools, enhancing efficiency and providing valuable insights.</p>
+                  </li>
+                  <li class="list-item">
+                   
+                    <p class="retail-p"><strong>Enhanced Travel Planning:</strong> We assists travellers with itinerary planning, ticketing, and logistics, ensuring hassle-free journeys and positive experiences.</p>
+                  </li>
+                  <li class="list-item">
+                   
+                    <p class="retail-p"><strong>Quality Assurance:</strong> We often adhere to service level agreements, ensuring consistent quality in customer interactions and boosting the travel company's reputation.</p>
+                  </li>
+                  <li class="list-item">
+                   
+                    <p class="retail-p"><strong>Data Security:</strong> Travel involves personal and financial information. Raddinas implement robust security measures to protect sensitive data.</p>
+                  </li>
+                 
+                </ul>
+              </div>
+          <img src="./img/Travels.webp" alt="Values">
+        </div>
+
+        <div class="tab-content" id="telecom">
+            <div class="tab-container">
+                <h1 class="heading">Telecom</h1>
+                <ul class="list">
+                    <p class="retail-p">Esolutions has revolutionized the landscape of telecom services, redefining operational efficiency, customer engagement, and technological advancement. Our contribution to the telecom sector is multi-faceted and essential for sustained growth.</p>
+                  <li class="list-item">
+
+
+                    <p class="retail-p"><strong>Customer Support Excellence:</strong> Esolutions deliver 24/7 customer support, addressing inquiries, troubleshooting issues, and ensuring seamless experiences across communication channels. This enhances customer satisfaction, fosters loyalty, and reduces churn rates.</p>
+                  </li>
+                  <li class="list-item">
+
+
+                    <p class="retail-p"><strong>Technical Expertise:</strong> We are specialized in managing complex technical processes, such as network management, device configuration, and system upgrades. This ensures optimal network performance, reduced downtime, and enhanced service quality.</p>
+                  </li>
+                  <li class="list-item">
+                   
+                    <p class="retail-p"><strong>Data Analytics:</strong> Our data analytics capabilities enable telecom companies to gain insights into customer behavior, preferences, and usage patterns. These insights drive targeted marketing campaigns, personalized offerings, and efficient resource allocation.</p>
+                  </li>
+                
+                  <li class="list-item">
+                   
+                    <p class="retail-p"><strong>Sales and Retention:</strong> We play a pivotal role in sales, lead generation, and retention strategies. BPO teams drive customer acquisition, cross-selling, and upselling by identifying potential clients and tailoring communication to meet their needs.</p>
+                  </li>
+                  <li class="list-item">
+                   
+                    <p class="retail-p"><strong>Efficiency Enhancement:</strong> We optimizes back-office operations, including billing, invoicing, and documentation. This leads to streamlined processes, reduced operational costs, and improved accuracy.</p>
+                  </li>
+                  <li class="list-item">
+                   
+                    <p class="retail-p"><strong>Innovation and Adaptation:</strong> Our technology integration keeps telecom companies competitive by rapidly adopting new technologies, such as IoT and 5G. This ensures continuous innovation and the ability to meet evolving customer demands.</p>
+                  </li>
+                 
+                 
+                </ul>
+              </div>
+          <img src="./img/telecom.webp" alt="Values">
+        </div>
+      
+      
+
+      </div>
+      
+     
+</div>
+  
+<script>
+    const tabButtons = document.querySelectorAll('.tab-button');
+    const tabContents = document.querySelectorAll('.tab-content');
+  
+    tabButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        const target = button.getAttribute('data-tab');
+  
+        tabButtons.forEach(btn => btn.classList.remove('active'));
+        tabContents.forEach(content => content.classList.remove('active'));
+  
+        button.classList.add('active');
+        document.getElementById(target).classList.add('active');
+      });
+    });
+  </script>
+<!-- tab system end -->
+
+<!-- content center start -->
+<div class="container-fluid feature bg-light py-5">
+<!-- content center end -->
+          
+    <div class="container py-5">
+        <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+            <h4 class="text-uppercase text-primary">Content Center as a Service(CCaaS)</h4>
+            <!-- <h1 class="display-3 text-capitalize mb-3">A Trusted Name In Bottled Water Industry</h1> -->
+        </div>
+        <div class="row g-4">
+            <div class=" col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="feature-item p-4">
+                    <div class="feature-icon mb-3"><i class="fas fa-solid fa-users text-white fa-3x"></i></div>
+                    <a href="retail.html" class="h4 mb-3 text-uppercase">Retail & E-Commerce Management</a>
+                    <p class="mb-3">In the dynamic landscape of e-commerce, the services of Esolution have emerged as a crucial catalyst for operational excellence and enhanced customer experience</p>
+                    <a href="retail.html" class="btn text-secondary">Learn More <i class="fa fa-angle-right"></i></a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
+                <div class="feature-item p-4">
+                    <div class="feature-icon mb-3"><i class="fas fa-solid fa-building text-white fa-3x"></i></div>
+                    <a href="office.html" class="h4 mb-3 text-uppercase">Back Office Services</a>
+                    <p class="mb-3">Esolutions has a significant impact on enhancing back office services for organizations. We specialize in handling administrative, data entry, document management, and other non-core tasks. </p>
+                    <a href="office.html" class="btn text-secondary">Learn More <i class="fa fa-angle-right"></i></a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
+                <div class="feature-item p-4">
+                    <div class="feature-icon mb-3"><i class="fas fa-solid fa-share text-white fa-3x"></i></div>
+                    <a href="office.html" class="h4 mb-3 text-uppercase">Shared Services</a>
+                    <p class="mb-3">Esolutions significantly contributes to the success of shared services models. We provide specialized expertise and resources to handle specific functions within shared service centers.</p>
+                    <a href="shared.html" class="btn text-secondary">Learn More <i class="fa fa-angle-right"></i></a>
+                </div>
+            </div>
+          
+           
+            <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
+                <div class="feature-item p-4">
+                    <div class="feature-icon mb-3"><i class="fas fa-solid fa-gears text-white fa-3x"></i></div>
+                    <a href="technical.html" class="h4 mb-3">Technical Support</a>
+                    <p class="mb-3">In the realm of Esolutions, technical support plays a pivotal role in ensuring seamless customer experiences and resolving intricate technical challenges.</p>
+                    <a href="technical.html" class="btn text-secondary">Learn More <i class="fa fa-angle-right"></i></a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
+                <div class="feature-item p-4">
+                    <div class="feature-icon mb-3"><i class="fas fa-solid fa-address-card text-white fa-3x"></i></div>
+                    <a href="revenue.html" class="h4 mb-3">Revenue Generation</a>
+                    <p class="mb-3">Esolutions can significantly contribute to revenue generation for other companies through a range of tailored solutions.</p>
+                    <a href="revenue.html" class="btn text-secondary">Learn More <i class="fa fa-angle-right"></i></a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
+                <div class="feature-item p-4">
+                    <div class="feature-icon mb-3"><i class="fas fa-solid fa-desktop text-white fa-3x"></i></div>
+                    <a href="customer.html" class="h4 mb-3">Customer Experience</a>
+                    <p class="mb-3">Raddinas have evolved beyond transactional partnerships, becoming integral to enhancing customer experience as a service.</p>
+                    <a href="customer.html" class="btn text-secondary">Learn More <i class="fa fa-angle-right"></i></a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
+                <div class="feature-item p-4">
+                    <div class="feature-icon mb-3"><i class="fas fa-solid fa-address-card text-white fa-3x"></i></div>
+                    <a href="digital.html" class="h4 mb-3">Digital Marketing</a>
+                    <p class="mb-3">Raddinas bolsters digital marketing efforts by providing specialized services. Our content creation, data analysis, and social media management enhance brand visibility and engagement..</p>
+                    <a href="digital.html" class="btn text-secondary">Learn More <i class="fa fa-angle-right"></i></a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
+                <div class="feature-item p-4">
+                    <div class="feature-icon mb-3"><i class="fas fa-solid fa-list-ul text-white fa-3x"></i></div>
+                    <a href="content.html" class="h4 mb-3">Content Services</a>
+                    <p class="mb-3">Esolutions plays a pivotal role in transforming content services for businesses. We offer specialized content creation, management, and distribution solutions</p>
+                    <a href="content.html" class="btn text-secondary">Learn More <i class="fa fa-angle-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+  <!-- Testimonial Start -->
+  <div class="container-fluid testimonial py-5">
+    <div class="container pb-5">
+        <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+            <h4 class="text-uppercase text-primary">Testimonials</h4>
+            <h1 class="display-3 text-capitalize mb-3">Our clients reviews.</h1>
+        </div>
+        <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.3s">
+            <div class="testimonial-item text-center p-4">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt pariatur officiis quis molestias, sit iure sunt voluptatibus accusantium laboriosam dolore.
+                </p>
+                <div class="d-flex justify-content-center mb-4">
+                    <img src="img/testimonial-1.jpg" class="img-fluid border border-4 border-primary" style="width: 100px; height: 100px; border-radius: 50px;" alt="">
+                </div>
+                <div class="d-block">
+                    <h4 class="text-dark">Client Name</h4>
+                    <p class="m-0 pb-3">Profession</p>
+                    <div class="d-flex justify-content-center text-secondary">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-item text-center p-4">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt pariatur officiis quis molestias, sit iure sunt voluptatibus accusantium laboriosam dolore.
+                </p>
+                <div class="d-flex justify-content-center mb-4">
+                    <img src="img/testimonial-2.jpg" class="img-fluid border border-4 border-primary" style="width: 100px; height: 100px; border-radius: 50px;" alt="">
+                </div>
+                <div class="d-block">
+                    <h4 class="text-dark">Client Name</h4>
+                    <p class="m-0 pb-3">Profession</p>
+                    <div class="d-flex justify-content-center text-secondary">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-item text-center p-4">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt pariatur officiis quis molestias, sit iure sunt voluptatibus accusantium laboriosam dolore.
+                </p>
+                <div class="d-flex justify-content-center mb-4">
+                    <img src="img/testimonial-3.jpg" class="img-fluid border border-4 border-primary" style="width: 100px; height: 100px; border-radius: 50px;" alt="">
+                </div>
+                <div class="d-block">
+                    <h4 class="text-dark">Client Name</h4>
+                    <p class="m-0 pb-3">Profession</p>
+                    <div class="d-flex justify-content-center text-secondary">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-item text-center p-4">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt pariatur officiis quis molestias, sit iure sunt voluptatibus accusantium laboriosam dolore.
+                </p>
+                <div class="d-flex justify-content-center mb-4">
+                    <img src="img/testimonial-3.jpg" class="img-fluid border border-4 border-primary" style="width: 100px; height: 100px; border-radius: 50px;" alt="">
+                </div>
+                <div class="d-block">
+                    <h4 class="text-dark">Client Name</h4>
+                    <p class="m-0 pb-3">Profession</p>
+                    <div class="d-flex justify-content-center text-secondary">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Testimonial End -->
+<!-- partner ui start  -->
+<!-- <div class="partner-main">
+
+    <div class="container-partner">
+        <h2>We Can Partner With You</h2>
+        <div class="services-partner">
+            <div class="service-box"><img src="./img/lead-generation.png" alt="Lead"> LEAD GENERATION</div>
+            <div class="service-box"><img src="./img/interaction-management.png" alt="Omni"> OMNI CHANNEL INTERACTION MANAGEMENT</div>
+            <div class="service-box"><img src="./img/life-cycle.png" alt="Assisted">ASSISTED CUSTOMER LIFE CYCLE MANAGEMENT </div>
+            <div class="service-box"><img src="./img/revenue-generation.png" alt="Customer"> CUSTOMER ACQUISITION REVENUE GENERATION</div>
+            <div class="service-box"><img src="./img/seller-support.png" alt="Seller"> SELLER SUPPORT</div>
+            <div class="service-box"><img src="./img/big-data.png" alt="Data"> BIG DATA AND ANALYTICS</div>
+            <div class="service-box"><img src="./img/digital-marketing.png" alt="Marketing"> DIGITAL MARKETING</div>
+            <div class="service-box"><img src="./img/loyality-and-retension.png" alt="Loyalty"> LOYALTY & RETENTION PROGRAMS</div>
+            <div class="service-box"><img src="./img/cloud-backup.png" alt="Cloud"> CLOUD BACKUP SYSTEM</div>
+           
+        </div>
+    </div>
+</div> -->
+
+<!-- partner ui end  -->
+        <!-- Footer Start -->
+        <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+            <div class="container py-5">
+                <div class="row g-5 mb-5 align-items-center">
+                    <div class="col-lg-7">
+                        <!-- <div class="position-relative mx-auto">
+                            <input class="form-control rounded-pill w-100 py-3 ps-4 pe-5" type="text" placeholder="Email address to Subscribe">
+                            <button type="button" class="btn btn-secondary rounded-pill position-absolute top-0 end-0 py-2 px-4 mt-2 me-2">Subscribe</button>
+                        </div> -->
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="d-flex align-items-center justify-content-center justify-content-lg-end">
+                            <a class="btn btn-secondary btn-md-square rounded-circle me-3" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-secondary btn-md-square rounded-circle me-3" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-secondary btn-md-square rounded-circle me-3" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-secondary btn-md-square rounded-circle me-0" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <div class="footer-item">
+                                <h3 class="text-white mb-4">Esolution</h3>
+                                <p class="mb-3">With a super combo of human and device intelligence, we offer strong and revolutionary answers to streamline your operations so that you can give attention to your center enterprise.</p>
+                            </div>
+                            <!-- <div class="position-relative">
+                                <input class="form-control rounded-pill w-100 py-3 ps-4 pe-5" type="text" placeholder="Enter your email">
+                                <button type="button" class="btn btn-secondary rounded-pill position-absolute top-0 end-0 py-2 mt-2 me-2">SignUp</button>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-white mb-4">Explore Us</h4>
+                            <a href="about.html"><i class="fas fa-angle-right me-2"></i> About Esolution</a>
+
+                            <a href="team.html"><i class="fas fa-angle-right me-2"></i> Our Team</a>
+
+                            <a href="infrastructure.html"><i class="fas fa-angle-right me-2"></i> Infrastructure</a>
+
+                           
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-white mb-4">Business Hours</h4>
+                            <div class="mb-3">
+                                <h6 class="text-muted mb-0">Mon - Friday:</h6>
+                                <p class="text-white mb-0">09.00 am to 07.00 pm</p>
+                            </div>
+                            <div class="mb-3">
+                                <h6 class="text-muted mb-0">Saturday:</h6>
+                                <p class="text-white mb-0">10.00 am to 05.00 pm</p>
+                            </div>
+                            <div class="mb-3">
+                                <h6 class="text-muted mb-0">Vacation:</h6>
+                                <p class="text-white mb-0">All Sunday is our vacation</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-white mb-4">Contact Info</h4>
+                            <a href="#"><i class="fa fa-map-marker-alt me-2"></i> Salt Lake, J1/16, Street Number 17, EP Block, Sector V, Bidhannagar, Kolkata, West Bengal 700091</a>
+
+                            <a href="Info@esolutioninfo.com
+                            "><i class="fas fa-envelope me-2"></i> Info@esolutioninfo.com
+                            </a>
+                            <a href="shibashis@esolutininfo.com"><i class="fas fa-envelope me-2"></i> shibashis@esolutininfo.com</a>
+
+                            <a href="sagar@esolutioninfo.com"><i class="fas fa-envelope me-2"></i> sagar@esolutioninfo.com </a>
+
+                            <a href="tel:+012 345 67890"><i class="fas fa-phone me-2"></i> +012 09232797948</a>
+
+                            <a href="tel:+012 345 67890" class=""><i class="fas fa-print me-2"></i> +012 033-40072525</a>
+
+                            <a href="tel:+012 345 67890" class="mb-3"><i class="fas fa-print me-2"></i> +012 6290946375</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        
+        <!-- Copyright Start -->
+        <div class="container-fluid copyright py-4">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-6 text-center text-md-start mb-md-0">
+                        <span class="text-body"><a href="#" class="border-bottom text-white"><i class="fas fa-copyright text-light "></i>Esolution BPO</a>, All right reserved.</span>
+                    </div>
+                    <!-- <div class="col-md-6 text-center text-md-end text-body"> -->
+                        <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
+                        <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
+                        <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
+                        <!-- Designed By <a class="border-bottom text-white" href="https://htmlcodex.com">HTML Codex</a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-secondary btn-lg-square rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    </body>
+
+</html>
